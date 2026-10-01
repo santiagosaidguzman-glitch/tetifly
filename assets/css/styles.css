@@ -12,7 +12,7 @@ color: #black;
 /* --- BARRA DE NAVEGACIÓN SIMPLE (<nav>) --- */
 .menu-principal {
 background-color: #1a365d;
-padding: 20px;
+padding: 30px;
 }
 .menu-principal ul {
 list-style: none;
@@ -64,11 +64,11 @@ margin-bottom: 25px;
 .rejilla-paquetes {
 display: grid;
 /* Genera columnas automáticas según el tamaño de la pantalla */
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 40px;
 }
 .tarjeta {
-background-color: white;
+background-color: red;
 border: 1px solid #ddd;
 border-radius: 8px;
 padding: 20px;
