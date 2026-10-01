@@ -7,12 +7,12 @@ font-family: Arial, sans-serif;
 }
 body {
 background-color: #f0f4f8;
-color: #333;
+color: #444;
 }
 /* --- BARRA DE NAVEGACIÓN SIMPLE (<nav>) --- */
 .menu-principal {
 background-color: #1a365d;
-padding: 15px;
+padding: 20px;
 }
 .menu-principal ul {
 list-style: none;
@@ -25,7 +25,7 @@ gap: 25px;
 text-decoration: none;
 font-weight: bold;
 padding: 8px 16px;
-border-radius: 4px;
+border-radius: 3px;
 }
 .menu-principal a:hover,
 .menu-principal a.activo {
@@ -34,7 +34,7 @@ background-color: #2b6cb0;
 /* --- PÁGINA DE INICIO (LOGO CENTRADO EN EL BODY) --- */
 .contenido-inicio {
 text-align: center;
-padding: 50px 20px;
+padding: 50px 30px;
 }
 .logo-central {
 width: 180px;
